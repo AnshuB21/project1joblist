@@ -1,5 +1,4 @@
 import NavLinks from './NavLinks';
-import Logo from '../components/Logo';
 import Wrapper from '../assets/wrappers/BigSidebar';
 import { useSelector } from 'react-redux';
 
@@ -17,7 +16,7 @@ const BigSidebar = () => {
       >
         <div className='content'>
           <header>
-            <Logo />
+            <h2>Joblist</h2>
           </header>
           <NavLinks />
         </div>

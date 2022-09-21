@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <Wrapper>
       <nav>
-        <Logo />
+        <h2>Joblist</h2>
       </nav>
       <div className='container page'>
         {/* info */}
